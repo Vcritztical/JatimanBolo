@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cca2f256d4fb6b42986e1ef893a86ca, type: 3}
+  m_Name: Speed Gun Upgrade
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.SpeedGunUpgrade
+  upgradeType: 6
+  title: Speed
+  upgrades:
+  - price: 0
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 0}
+    bulletPrefab: {fileID: 0}
+    damage:
+      firstValue: 0
+      secondValue: 0
+    rangeRadius: 0
+    fireRate: 0
+    spread: 0
+    power: 0
+    bulletsPerShot:
+      firstValue: 0
+      secondValue: 0
+    bulletSpeed:
+      firstValue: 0
+      secondValue: 0
+    keyUpgradeNumber: -1
+  - price: 0
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 1137011626364471753, guid: 069f56ce85389dd4babf9eb150175dd1,
+      type: 3}
+    bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
+      type: 3}
+    damage:
+      firstValue: 5
+      secondValue: 5
+    rangeRadius: 5
+    fireRate: 100
+    spread: 60
+    power: 10
+    bulletsPerShot:
+      firstValue: 5
+      secondValue: 5
+    bulletSpeed:
+      firstValue: 18
+      secondValue: 18
+    keyUpgradeNumber: -1

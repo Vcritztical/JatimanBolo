@@ -55,6 +55,19 @@ namespace Watermelon.SquadShooter
 
         [SerializeField] Transform teslaHolderTransform;
         public Transform TeslaHolderTransform => teslaHolderTransform;
+        
+        [SerializeField] Transform rgbHolderTransform;
+        public Transform RgbHolderTransform => rgbHolderTransform;
+        
+        [SerializeField] Transform rifleHolderTransform;
+        public Transform TifleHolderTransform => rifleHolderTransform;
+        
+        [SerializeField] Transform speedGunHolderTransform;
+        public Transform SpeedGunHolderTransform => speedGunHolderTransform;
+        
+        [SerializeField] Transform engineGunHolderTransform;
+        public Transform EngineGunHolderTransform => engineGunHolderTransform;
+       
 
         [Space]
         [SerializeField] Rig mainRig;
@@ -341,6 +354,41 @@ namespace Watermelon.SquadShooter
 
                     teslaHolderTransform = teslaHolderObject.transform;
 
+                    // Rgbgun
+                    GameObject rgbHolderObject = new GameObject("Rgb Holder");
+                    rgbHolderObject.transform.SetParent(weaponsTransform);
+                    rgbHolderObject.transform.ResetLocal();
+                    rgbHolderObject.transform.localPosition = new Vector3(0.204f, 0.7f, 0.375f);
+                    rgbHolderObject.transform.localRotation = Quaternion.Euler(0, -90, 90);
+
+                    rgbHolderTransform = rgbHolderObject.transform;
+                    
+                    // Rifle
+                    GameObject rifleHolderObject = new GameObject("Rifle Holder");
+                    rifleHolderObject.transform.SetParent(weaponsTransform);
+                    rifleHolderObject.transform.ResetLocal();
+                    rifleHolderObject.transform.localPosition = new Vector3(0.204f, 0.7f, 0.375f);
+
+                    rifleHolderTransform = rifleHolderObject.transform;
+                    
+                    // SpeedGun
+                    GameObject speedGunHolderObject = new GameObject("SpeedGun Holder");
+                    speedGunHolderObject.transform.SetParent(weaponsTransform);
+                    speedGunHolderObject.transform.ResetLocal();
+                    speedGunHolderObject.transform.localPosition = new Vector3(0.204f, 0.7f, 0.375f);
+                    speedGunHolderObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+
+                    speedGunHolderTransform = speedGunHolderObject.transform;
+                    
+                    // EngineGUn
+                    GameObject engineGunHolderObject = new GameObject("SpeedGun Holder");
+                    engineGunHolderObject.transform.SetParent(weaponsTransform);
+                    engineGunHolderObject.transform.ResetLocal();
+                    engineGunHolderObject.transform.localPosition = new Vector3(0.204f, 0.7f, 0.375f);
+                    engineGunHolderObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+
+                    engineGunHolderTransform = engineGunHolderObject.transform;
+                    
                     // Initialise mesh renderer
                     meshRenderer = tempAnimator.transform.GetComponentInChildren<SkinnedMeshRenderer>();
 

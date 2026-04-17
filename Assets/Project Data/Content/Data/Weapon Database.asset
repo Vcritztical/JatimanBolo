@@ -33,6 +33,21 @@ MonoBehaviour:
     upgradeType: 3
     rarity: 4
     icon: {fileID: 21300000, guid: 1d58f9d657dbeff4ea4acc5ef87d4828, type: 3}
+  - name: GAMING GUN
+    type: 5
+    upgradeType: 4
+    rarity: 0
+    icon: {fileID: 21300000, guid: 15a22abbccec1424b9b04bac4b2f63b5, type: 3}
+  - name: RIFLE
+    type: 4
+    upgradeType: 5
+    rarity: 1
+    icon: {fileID: 21300000, guid: 08a0f371529017c4bacd9c3d73e64a2e, type: 3}
+  - name: FAST SHOTGUN
+    type: 6
+    upgradeType: 6
+    rarity: 0
+    icon: {fileID: 21300000, guid: 6b42b90a46d677146969fd6cb2046d37, type: 3}
   raritySettings:
   - rarity: 0
     name: BIASA

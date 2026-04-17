@@ -46,7 +46,7 @@ MonoBehaviour:
       secondValue: 15
     rangeRadius: 7.03125
     fireRate: 10
-    spread: 5
+    spread: 1
     power: 9
     bulletsPerShot:
       firstValue: 1

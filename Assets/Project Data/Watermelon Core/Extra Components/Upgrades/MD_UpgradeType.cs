@@ -7,5 +7,9 @@ namespace Watermelon
         Shotgun = 1,
         LavaLauncher = 2,
         Tesla = 3, 
+        Rgb = 4, 
+        Rifle = 5, 
+        Speed = 6, 
+        Engine = 7, 
     }
 }
