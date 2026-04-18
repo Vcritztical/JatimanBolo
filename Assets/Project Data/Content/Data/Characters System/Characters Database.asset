@@ -78,3 +78,596 @@ MonoBehaviour:
         keyUpgradeNumber: 11
       changeStage: 0
       stageIndex: -1
+  - type: 1
+    name: Pak Lek
+    requiredLevel: 3
+    lockedSprite: {fileID: 21300000, guid: 98adb9a55a5489543958b2b6ef821df7, type: 3}
+    stages:
+    - previewSprite: {fileID: 21300000, guid: b4512a26bf83fbf459f0a0b9d732cc50, type: 3}
+      lockedSprite: {fileID: 21300000, guid: 98adb9a55a5489543958b2b6ef821df7, type: 3}
+      prefab: {fileID: 3998134169397270490, guid: 9b85a4d7065a7674d9c255657c4c3a0e,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 80
+      stats:
+        health: 110
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 100
+      stats:
+        health: 120
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 130
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 210
+      stats:
+        health: 160
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 2
+    name: Koki
+    requiredLevel: 5
+    lockedSprite: {fileID: 21300000, guid: 3246c3f287317a74494cce83994a8fea, type: 3}
+    stages:
+    - previewSprite: {fileID: 21300000, guid: eaf41517691b9b44b9a4d691e2110764, type: 3}
+      lockedSprite: {fileID: 21300000, guid: 3246c3f287317a74494cce83994a8fea, type: 3}
+      prefab: {fileID: 570184452382385541, guid: a7c6dc1bd4d2b274b816d110e0a04979,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 100
+      stats:
+        health: 120
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 3
+    name: Soldier
+    requiredLevel: 2
+    lockedSprite: {fileID: 556888059, guid: 2bb8db9caf2312d43b25fdb2e22a0c1c, type: 3}
+    stages:
+    - previewSprite: {fileID: -170843633, guid: e1d6e36ef423844439d8a494b7f3b52e,
+        type: 3}
+      lockedSprite: {fileID: 556888059, guid: 2bb8db9caf2312d43b25fdb2e22a0c1c, type: 3}
+      prefab: {fileID: 8063870306743785540, guid: 140eb3921b08c854f882b2dbbdffcd54,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 100
+      stats:
+        health: 120
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 4
+    name: Assasin
+    requiredLevel: 6
+    lockedSprite: {fileID: 755437019, guid: cdbdcd8458dca834f91846ca7701f3ec, type: 3}
+    stages:
+    - previewSprite: {fileID: -1893765874, guid: f11c123ceaf860d43aff5fec8ea02adf,
+        type: 3}
+      lockedSprite: {fileID: -1893765874, guid: f11c123ceaf860d43aff5fec8ea02adf,
+        type: 3}
+      prefab: {fileID: 1321126284642967548, guid: d92e8baadcad77446b944d3dd19cd583,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 5
+    name: Claw Dude
+    requiredLevel: 8
+    lockedSprite: {fileID: 637833713, guid: ee50a21d1983dc442bbf918a6587f6cd, type: 3}
+    stages:
+    - previewSprite: {fileID: 1014574415, guid: 117844248625cab41b8c6e0793fa0f0b,
+        type: 3}
+      lockedSprite: {fileID: 637833713, guid: ee50a21d1983dc442bbf918a6587f6cd, type: 3}
+      prefab: {fileID: 952971070202547970, guid: c79d2941fc60f394d801533268492a9c,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 6
+    name: Dark Ninja
+    requiredLevel: 10
+    lockedSprite: {fileID: -310301347, guid: 102cb8a09c813bf4288497337669281c, type: 3}
+    stages:
+    - previewSprite: {fileID: -802064094, guid: 5ce269fde4e4efb4cad798d31f437f77,
+        type: 3}
+      lockedSprite: {fileID: -310301347, guid: 102cb8a09c813bf4288497337669281c, type: 3}
+      prefab: {fileID: 834907478756820928, guid: 1752de2acfdf8f24d804ff0b10ca8a90,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 7
+    name: White Ninja
+    requiredLevel: 12
+    lockedSprite: {fileID: -1964714415, guid: d391105d65a7ee84aa717d9dbf898c23, type: 3}
+    stages:
+    - previewSprite: {fileID: 2042597491, guid: eab4e11f6b57ee94383482a1b468abee,
+        type: 3}
+      lockedSprite: {fileID: -1964714415, guid: d391105d65a7ee84aa717d9dbf898c23,
+        type: 3}
+      prefab: {fileID: 3530464239160100864, guid: c846551c61e6d8d4e92f93542f51c04c,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 8
+    name: Red Maniac
+    requiredLevel: 13
+    lockedSprite: {fileID: -1662887720, guid: caa80b99d9d6ac84ca9c7faf3e2dd333, type: 3}
+    stages:
+    - previewSprite: {fileID: -802064094, guid: 5ce269fde4e4efb4cad798d31f437f77,
+        type: 3}
+      lockedSprite: {fileID: -310301347, guid: 102cb8a09c813bf4288497337669281c, type: 3}
+      prefab: {fileID: 82167617178502291, guid: 5deea2911ef02654ca9b5b3970af990f,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 300
+      stats:
+        health: 170
+        bulletDamageMultiplier: 1
+        power: 39
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
+  - type: 9
+    name: Super Dude
+    requiredLevel: 15
+    lockedSprite: {fileID: 284146235, guid: be7de37258e1d6449ba29a07928a48c3, type: 3}
+    stages:
+    - previewSprite: {fileID: 890262373, guid: 08a582fcb83ef9545b6a6a786842e005, type: 3}
+      lockedSprite: {fileID: 284146235, guid: be7de37258e1d6449ba29a07928a48c3, type: 3}
+      prefab: {fileID: 7384265321376134442, guid: 9a0575b6d76b20347b367463fe82ffe7,
+        type: 3}
+      healthBarOffset: {x: 0, y: 2.34375, z: 0}
+    upgrades:
+    - currencyType: 0
+      price: 0
+      stats:
+        health: 100
+        bulletDamageMultiplier: 1
+        power: 10
+        keyUpgradeNumber: 0
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 120
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 16
+        keyUpgradeNumber: 1
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 190
+      stats:
+        health: 135
+        bulletDamageMultiplier: 1
+        power: 21
+        keyUpgradeNumber: 3
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 200
+      stats:
+        health: 140
+        bulletDamageMultiplier: 1
+        power: 28
+        keyUpgradeNumber: 6
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 250
+      stats:
+        health: 150
+        bulletDamageMultiplier: 1
+        power: 34
+        keyUpgradeNumber: 9
+      changeStage: 0
+      stageIndex: -1
+    - currencyType: 0
+      price: 500
+      stats:
+        health: 500
+        bulletDamageMultiplier: 1
+        power: 50
+        keyUpgradeNumber: 11
+      changeStage: 0
+      stageIndex: -1
