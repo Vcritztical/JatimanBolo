@@ -158,11 +158,11 @@ MonoBehaviour:
     - dropType: 1
       currencyType: 0
       cardType: 4
-      amount: 11
+      amount: 3
     - dropType: 1
       currencyType: 0
       cardType: 5
-      amount: 11
+      amount: 2
     specialBehaviours:
     - {fileID: 11400000, guid: 81fad66ce9ed64d488606cf6df97a837, type: 2}
   - type: 0
@@ -541,7 +541,11 @@ MonoBehaviour:
     - dropType: 1
       currencyType: 0
       cardType: 4
-      amount: 10
+      amount: 5
+    - dropType: 1
+      currencyType: 0
+      cardType: 6
+      amount: 4
     specialBehaviours: []
   - type: 0
     rooms:
@@ -3321,8 +3325,8 @@ MonoBehaviour:
       amount: 130
     - dropType: 1
       currencyType: 0
-      cardType: 5
-      amount: 10
+      cardType: 6
+      amount: 5
     specialBehaviours: []
   - type: 0
     rooms:
@@ -4194,6 +4198,10 @@ MonoBehaviour:
       currencyType: 0
       cardType: 0
       amount: 120
+    - dropType: 1
+      currencyType: 0
+      cardType: 7
+      amount: 15
     specialBehaviours: []
   - type: 0
     rooms:
