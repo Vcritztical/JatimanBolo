@@ -263,11 +263,11 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 1
   useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
+  useCustomMainGradleTemplate: 1
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
-  useCustomGradleSettingsTemplate: 0
+  useCustomGradlePropertiesTemplate: 1
+  useCustomGradleSettingsTemplate: 1
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
@@ -974,11 +974,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 835e4c15-9b9c-43d9-98b7-b91b57f994f5
+  cloudProjectId: fc6ddce5-b5d6-4d35-b7b4-fd1b736ed268
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: JatimanBolo
-  organizationId: mblonde
+  projectName: The Last Treasure of East Java
+  organizationId: gameclipz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   hmiLoadingImage: {fileID: 0}
