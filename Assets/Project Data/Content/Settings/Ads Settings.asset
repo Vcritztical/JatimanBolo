@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15ddb41bf72d53a48a6bdc593d706f94, type: 3}
   m_Name: Ads Settings
   m_EditorClassIdentifier: 
-  bannerType: 0
-  interstitialType: 0
-  rewardedVideoType: 0
+  bannerType: 3
+  interstitialType: 3
+  rewardedVideoType: 3
   adMobContainer:
     androidAppId: 
     iosAppId: 
@@ -28,13 +28,13 @@ MonoBehaviour:
     bannerPosition: 0
     testDevicesIDs: []
   unityAdsContainer:
-    androidAppID: 
+    androidAppID: 6095955
     iOSAppID: 
-    androidBannerID: banner
+    androidBannerID: Banner_Android
     iOSBannerID: banner
-    androidInterstitialID: video
+    androidInterstitialID: Interstitial_Android
     iOSInterstitialID: video
-    androidRewardedVideoID: rewardedVideo
+    androidRewardedVideoID: Rewarded_Android
     iOSRewardedVideoID: rewardedVideo
     bannerPosition: 4
   ironSourceContainer:
@@ -44,12 +44,12 @@ MonoBehaviour:
     bannerType: 0
   dummyContainer:
     bannerPosition: 0
-  testMode: 0
+  testMode: 1
   systemLogs: 1
-  interstitialFirstStartDelay: 40
-  interstitialStartDelay: 40
-  interstitialShowingDelay: 30
-  autoShowInterstitial: 0
+  interstitialFirstStartDelay: 30
+  interstitialStartDelay: 30
+  interstitialShowingDelay: 20
+  autoShowInterstitial: 1
   isGDPREnabled: 0
   isIDFAEnabled: 0
   trackingDescription: Your data will be used to deliver personalized ads to you.

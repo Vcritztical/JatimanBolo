@@ -4956,7 +4956,7 @@ MonoBehaviour:
     - dropType: 1
       currencyType: 0
       cardType: 1
-      amount: 1
+      amount: 5
     specialBehaviours: []
   - type: 0
     rooms:
@@ -5835,6 +5835,10 @@ MonoBehaviour:
       currencyType: 0
       cardType: 0
       amount: 140
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 5
     specialBehaviours: []
   - type: 1
     rooms:
@@ -6048,7 +6052,7 @@ MonoBehaviour:
         Position: {x: 4.6, y: 0, z: 14.52}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
-    xpAmount: 200
+    xpAmount: 300
     requiredUpg: 10
     enemiesLevel: 2
     hasCharacterSuggestion: 0
@@ -6065,7 +6069,7 @@ MonoBehaviour:
     - dropType: 1
       currencyType: 0
       cardType: 2
-      amount: 2
+      amount: 1
     specialBehaviours: []
   items:
   - prefab: {fileID: 3275193047788003956, guid: e8d65ba6b5f17f64481e32c58f847871,
