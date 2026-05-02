@@ -1573,10 +1573,6 @@ MonoBehaviour:
       currencyType: 0
       cardType: 0
       amount: 190
-    - dropType: 1
-      currencyType: 0
-      cardType: 1
-      amount: 1
     specialBehaviours: []
   - type: 0
     rooms:
@@ -6583,6 +6579,10 @@ MonoBehaviour:
       currencyType: 0
       cardType: 0
       amount: 230
+    - dropType: 1
+      currencyType: 0
+      cardType: 4
+      amount: 10
     specialBehaviours: []
   - type: 0
     rooms:

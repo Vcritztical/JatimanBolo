@@ -683,6 +683,10 @@ MonoBehaviour:
       currencyType: 0
       cardType: 2
       amount: 500
+    - dropType: 1
+      currencyType: 0
+      cardType: 5
+      amount: 15
     specialBehaviours: []
   items:
   - prefab: {fileID: 3275193047788003956, guid: 7722da36603c7b74492800c1f97eebe2,
